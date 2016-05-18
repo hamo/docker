@@ -78,7 +78,7 @@ func New() *configs.Config {
 			},
 			{
 				Source:      "cgroup",
-				Destination: "/sys/fs/cgroup",
+				Destination: "/cgroup",
 				Device:      "cgroup",
 				Flags:       defaultMountFlags | syscall.MS_RDONLY,
 			},
