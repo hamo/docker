@@ -74,7 +74,7 @@ func New() *configs.Config {
 				Source:      "sysfs",
 				Destination: "/sys",
 				Device:      "sysfs",
-				Flags:       defaultMountFlags | syscall.MS_RDONLY,
+				Flags:       defaultMountFlags,
 			},
 			{
 				Source:      "cgroup",
